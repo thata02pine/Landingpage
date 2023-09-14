@@ -150,7 +150,7 @@ summary {
 
 
 
-#duvidas details p :hover{
+#duvidas details p {
     background-color: #883287;
     padding: 1%;
     width: 50%;
