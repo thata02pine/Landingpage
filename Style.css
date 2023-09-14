@@ -1,84 +1,140 @@
 body {
+
     font-family: Arial, sans-serif;
+
     margin: 0;
+
     background: linear-gradient( #211b31,#151e3c, black );
+
     color: #f4f4f4;
+
     font-family: 'Lora', serif;
+
 }
 
 .fixed-header {
+
     position: fixed;
+
     width: 100%;
+
     background-color: #405d94;
+
     color: #fff;
+
     padding: 10px 20px;
+
     top: 0;
+
     text-align: center;
+    display: inline-block;
+
+}
+
+.logo{ width: 100px;
+
 }
 
 .centered-content {
+
     display: flex;
+
     justify-content: center;
+
 }
 
 .section {
+
     margin-top: 80px;
+
     padding-top: 20px ;
+
     padding-bottom: 20%;
+
     display: inline-block;
+
     margin: 0 5% 0 ;
+
 }
 
-
-
 nav ul {
+
     list-style-type: none;
+
     padding: 0;
+
 }
 
 nav li {
+
     display: inline;
+
     margin-right: 20px;
+
 }
 
 nav a {
+
     color: #fff;
+
     text-decoration: none;
+
     transition: 1s;
+
 }
 
  a:hover {
+
     font-size: 18px;
+
     padding: 1%;
+
     background-color: #211b31;
+
     border-radius: 20px;
 
-
 }
-
 
 #conteudo {
+
     font-size: 22px;
+
     padding: 5%;
+
     
+
 }
+
 #conteudo h2 {
+
     text-align: center;
+
     font-family: 'Merriweather Sans', sans-serif;
 
 }
+
 img{
+
     width: 60%;
+
     margin: 0% 2% 2% 0;
+
     float: left;
+
 }
 
 .section1 {
+
     display: grid;
+
     grid-template-columns: 33% 33% 33%;
+
     text-align: center;
+
     padding: 2%;
+
     margin-bottom: 10%;
+
     
 
 }
@@ -86,78 +142,121 @@ img{
 .titulo { 
 
     display: block;
+
     font-size: 35px;
+
     text-align: center;
+
     padding: 2%;
+
     margin-top: 8%;
+
     font-family: 'Merriweather Sans', sans-serif;
+
     
+
     
+
 }
+
 .section1 div  { 
+
     width: 60%;
+
     margin: 0 10% 10% 10%;
+
     background-color: #4b3a5f;
+
     padding: 5%;
+
     border-radius: 20px;
+
     
+
 }
 
 .section2 {
+
     display: grid;
+
     grid-template-columns: 50% 50%;
+
     
+
 }
 
 .section2 p {
+
 padding: 20%;
+
  font-size: 17px;
+
  text-align: center;
+
 }
 
 .mapa { 
+
     padding: 0 0 0 5%;
+
     width: 80%;
+
   
+
    }
 
-
-
 #duvidas {
+
     align-items: center;
+
     padding: 2%;
+
     width: 100%;
+
     justify-content: center;
+
     margin-bottom: 5%
 
 }
 
 #duvidas details {
+
     display: block;
+
     margin: 0 0 0 20px;
+
     
 
 }
 
 summary {
+
     background-color: #161d39;
+
     padding: 1%;
+
     border: 1px solid black;
+
     width: 50%;
+
     transition: 1s;
 
 }
 
-
-
 #duvidas details p {
-    background-color: #883287;
-    padding: 1%;
-    width: 50%;
-    margin-bottom: ;
-}
 
+    background-color: #883287;
+
+    padding: 1%;
+
+    width: 50%;
+
+    margin-bottom: ;
+
+}
 
 footer {
+
     
-}
+
+    }
