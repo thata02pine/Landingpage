@@ -4,9 +4,9 @@ body {
 
     margin: 0;
 
-    background: linear-gradient( #211b31,#151e3c, black );
+    background: linear-gradient( #1c1027,#202c52, rgb(7, 2, 19) );
 
-    color: #f4f4f4;
+    color: #ffffff;
 
     font-family: 'Lora', serif;
 
@@ -24,53 +24,28 @@ body {
 
     padding: 10px 20px;
 
-    top: 0;
-
     text-align: center;
-    display: inline-block;
+
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
-.logo{ width: 100px;
+.logo{ width: 50px;
 
 }
 
-.centered-content {
 
-    display: flex;
 
-    justify-content: center;
-
-}
-
-.section {
-
-    margin-top: 80px;
-
-    padding-top: 20px ;
-
-    padding-bottom: 20%;
-
-    display: inline-block;
-
-    margin: 0 5% 0 ;
-
-}
-
-nav ul {
-
-    list-style-type: none;
-
-    padding: 0;
-
-}
 
 nav li {
 
     display: inline;
 
-    margin-right: 20px;
+    margin-right: 2rem;
 
+    font-size: 19px;
+        
+    
 }
 
 nav a {
@@ -79,13 +54,15 @@ nav a {
 
     text-decoration: none;
 
-    transition: 1s;
+    transition: 300ms linear 0s;
+
+    
 
 }
 
  a:hover {
 
-    font-size: 18px;
+    font-size: 21px;
 
     padding: 1%;
 
@@ -133,7 +110,7 @@ img{
 
     padding: 2%;
 
-    margin-bottom: 10%;
+    
 
     
 
@@ -187,19 +164,23 @@ img{
 
 .section2 p {
 
-padding: 20%;
+ padding: 20%;
+ 
+ font-size: 19px;
 
- font-size: 17px;
-
- text-align: center;
+ text-align: left;
 
 }
 
 .mapa { 
 
-    padding: 0 0 0 5%;
+  align-items: center;
 
-    width: 80%;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
 
   
 
@@ -245,7 +226,7 @@ summary {
 
 #duvidas details p {
 
-    background-color: #883287;
+    background-color: #4d194c;
 
     padding: 1%;
 
